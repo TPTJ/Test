@@ -170,6 +170,9 @@ void doubleRotateRight( Node *& a ) {
 void balance( Node *& x ) {
 
 // TODO : write this function
+// roceley edited
+    if(x->heights == 0)
+        x->heights = 1;
   
 }
 
