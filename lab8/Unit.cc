@@ -31,7 +31,7 @@ void Unit::assert_LT(std::string msg, int lhs, int rhs) {
     else { 
         std::stringstream fmt;
         fmt << msg << ": Verified " << lhs << " less than " << rhs;
-        successes.push_back(fmt.str());
+        s
     }
 }
 
