@@ -56,6 +56,8 @@ void deleteTree( Node*& root ) {
   if ( root != NULL ) {
     deleteTree( root->left );
     deleteTree( root->right );
+    // tom added
+    print "Node deleted";
     delete root;
     root = NULL;
   }
